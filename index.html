@@ -1,239 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="trader-page">
+  <div class="trader-card">
 
-<title>NAVJOR BRAR OFFICIAL</title>
+    <div class="trader-logo">
+      <img src="https://i.ibb.co/Y44fzjDq/GAUTAM-IMAGE-1.jpg" alt="3 Point Traders Logo">
+    </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <h1>STOCK LEARNERS GAUTAM JHA {SEBI REGISTERED}</h1>
+    <h3>📚 Learning Community</h3>
+
+    <div class="trader-features">
+      <div>🌐 Learning &amp; Educational Sessions</div>
+      <div>📊 Market Concepts &amp; Awareness</div>
+      <div>💎 Chart Reading Concepts</div>
+      <div>💻 Educational Case Discussions</div>
+    </div>
+
+    <a class="telegram-btn"
+       href="https://t.me/+94PzJW__5jBhODll"
+       target="_blank" rel="noopener noreferrer">
+      ✈️ JOIN TELEGRAM
+    </a>
+
+    <p class="trader-hindi">
+      नियत अच्छी और मेहनत सच्ची हो, तो कामयाबी जरूर मिलती है।
+    </p>
+
+    <div class="advertised">
+      Advertised By
+      <span>AD BUILD AGENCY</span>
+    </div>
+
+    <p class="trader-footer">
+      Educational content only • No profit guarantee
+    </p>
+
+  </div>
+</div>
 
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
+.trader-page {
+  background: #000;
+  color: #f5f7fa;
+  padding: 35px 15px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-body{
-background:#0f172a;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-color:#fff;
+.trader-page * {
+  box-sizing: border-box;
 }
 
-/* CARD */
-
-.container{
-width:95%;
-max-width:420px;
-padding:30px 25px;
-border-radius:18px;
-
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-
-border:1px solid rgba(255,255,255,0.08);
-
-box-shadow:0 20px 60px rgba(0,0,0,0.6);
-text-align:center;
+.trader-card {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px 32px 45px;
+  text-align: center;
+  background: #050f18;
+  border: 1px solid #00d9ff;
+  border-radius: 48px;
+  box-shadow: 0 0 25px rgba(0, 217, 255, .15);
 }
 
-/* LOGO */
-
-.logo{
-width:80px;
-height:80px;
-border-radius:50%;
-border:2px solid #FFD700;
-margin-bottom:12px;
+.trader-logo {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #fff;
+  border: 5px solid #00dcff;
+  box-shadow: 0 0 25px #00d9ff;
+  overflow: hidden;
 }
 
-/* TEXT */
-
-h1{
-font-size:22px;
-color:#FFD700;
-margin-bottom:6px;
+.trader-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
-h2{
-font-size:15px;
-opacity:0.9;
-margin-bottom:10px;
+.trader-card h1 {
+  margin: 0 0 12px;
+  font-size: clamp(27px, 5vw, 43px);
+  line-height: 1.2;
+  font-weight: 800;
+  color: #fff;
 }
 
-.sub{
-font-size:13px;
-opacity:0.7;
-margin-bottom:18px;
+.trader-card h3 {
+  margin: 0 0 42px;
+  font-size: 21px;
+  color: #9baeb9;
+  font-weight: 700;
 }
 
-/* BUTTON */
-
-.btn{
-display:block;
-text-decoration:none;
-background:#22c55e;
-color:#000;
-font-weight:700;
-padding:16px;
-border-radius:10px;
-margin:12px 0;
-transition:0.3s;
+.trader-features {
+  text-align: left;
+  margin-bottom: 36px;
 }
 
-.btn:hover{
-background:#16a34a;
-transform:scale(1.03);
+.trader-features div {
+  padding: 24px 8px;
+  border-bottom: 1px solid #1b2932;
+  font-size: 20px;
+  line-height: 1.45;
+  font-weight: 700;
+  color: #d8dce0;
 }
 
-/* TRUST BOX */
-
-.trust{
-background:rgba(0,255,150,0.08);
-padding:10px;
-border-radius:10px;
-font-size:13px;
-margin-bottom:15px;
-border:1px solid rgba(0,255,150,0.2);
+.trader-features div:last-child {
+  border-bottom: none;
 }
 
-/* LIST */
-
-.points{
-list-style:none;
-font-size:14px;
-text-align:left;
-margin:15px 0;
+.telegram-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 94px;
+  padding: 20px 12px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: clamp(20px, 4vw, 29px);
+  font-weight: 800;
+  background: linear-gradient(
+    110deg,
+    #00c7f5 0%,
+    #087cff 48%,
+    #9138f5 100%
+  );
+  box-shadow: 0 0 22px rgba(0, 142, 255, .2);
+  transition: transform .2s ease;
 }
 
-.points li{
-margin:8px 0;
+.telegram-btn:hover {
+  transform: scale(1.02);
 }
 
-/* URGENCY */
-
-.timer{
-margin-top:10px;
-font-size:13px;
-color:#facc15;
+.trader-hindi {
+  margin: 28px 0 30px;
+  color: #a7a7a7;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.7;
 }
 
-/* SOCIAL PROOF */
-
-.proof{
-margin-top:12px;
-font-size:12px;
-opacity:0.7;
+.advertised {
+  border: 1px solid #1a2831;
+  border-radius: 18px;
+  padding: 18px 8px;
+  color: #7c8389;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-/* FOOTER BRAND */
-
-.footer{
-margin-top:20px;
-font-size:12px;
-opacity:0.6;
+.advertised span {
+  color: #00d9ff;
 }
 
-.footer a{
-color:#38bdf8;
-text-decoration:none;
-font-weight:600;
+.trader-footer {
+  margin: 22px 0 0;
+  font-size: 13px;
+  color: #555f68;
+  font-weight: 700;
 }
 
-.footer a:hover{
-text-decoration:underline;
+@media (max-width: 480px) {
+  .trader-page {
+    padding: 25px 10px;
+  }
+
+  .trader-card {
+    padding: 38px 22px 42px;
+    border-radius: 38px;
+  }
+
+  .trader-logo {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 38px;
+  }
+
+  .trader-features div {
+    padding: 22px 5px;
+    font-size: 18px;
+  }
+
+  .telegram-btn {
+    min-height: 78px;
+  }
+
+  .trader-hindi {
+    font-size: 18px;
+  }
 }
-
-/* RISK */
-
-.risk{
-margin-top:10px;
-font-size:11px;
-opacity:0.5;
-}
-
 </style>
-</head>
-
-<body>
-
-<div class="container">
-
-<img src="https://i.ibb.co/Z1tm5Mbn/Navjot-dp.jpg" class="logo">
-
-<h1>NAVJOT BRAR OFFICIAL</h1>
-<h2>NIFTY • BANKNIFTY • OPTIONS</h2>
-
-<p class="sub">
-Daily Intraday Trading Signals & Analysis
-</p>
-
-<!-- TOP BUTTON -->
-<a href="https://t.me/+0dfwRV_iYowxMjdl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="trust">
-✔ Trusted by 5,000+ Traders <br>
-✔ Daily Consistent Setups
-</div>
-
-<ul class="points">
-<li>✔ 5–7 High Probability Trades</li>
-<li>✔ Exact Entry, SL & Target</li>
-<li>✔ Beginner Friendly Guidance</li>
-<li>✔ Live Market Updates</li>
-</ul>
-
-<!-- BOTTOM BUTTON -->
-<a href="https://t.me/+0dfwRV_iYowxMjdl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="timer">
-⏳ Free Access Closing Soon
-</div>
-
-<div class="proof">
-📈 Limited Seats • Active Community
-</div>
-
-<p class="risk">
-⚠ Market investments are subject to risk
-</p>
-
-<!-- CLEAN FOOTER -->
-<div class="footer">
-Powered by 
-<a href="https://t.me/+0dfwRV_iYowxMjdl" target="_blank">
-Ankul Ad Agency
-</a>
-</div>
-
-</div>
-
-</body>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '4478056022465825');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=4478056022465825&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-</html>
